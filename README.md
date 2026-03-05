@@ -29,3 +29,8 @@
 - Type check with useRef. Check the DomRef.tsx And MutateRef.tsx
 
 ## Typing Class Component
+- Need to typecaste Props and State for class based components.
+- Check class/Counter.tsx for reference.
+
+## Component as Prop
+- 

@@ -12,6 +12,7 @@ import Container from './components/Container'
 import { ThemeContextProvider } from './components/context/ThemeContextProvider'
 import UserContextProvider from './components/context/UserContextProvider'
 import User from './components/User'
+import { Counter } from './components/class/Counter'
 
 function App() {
   const [inputValue, setInputValue] = useState('')
@@ -55,6 +56,7 @@ function App() {
         }} />
         <Container styles={{border : '1px solid red', padding : '1rem'}} />
         <User />
+        <Counter message='Hey There I am from Class Based Component' />
       </ThemeContextProvider>
     </UserContextProvider>
   )
